@@ -35,6 +35,10 @@ export const getAllGroup = async () => {
     const response = await fetch('http://localhost:8080/group');
     return await response.json();
 };
+export const getAllLecture = async () => {
+    const response = await fetch('http://localhost:8080/lecture');
+    return await response.json();
+};
 export const insertDepartament = (departament) => request(`http://localhost:8080/departament/`, 'put',departament);
 export const removeDepartament = (id) => request(`http://localhost:8080/departament/${id}`, 'delete');
 export const changeDepartament = (departament) => request(`http://localhost:8080/departament/`, 'post',departament);
@@ -59,6 +63,7 @@ export const removeGroup = (id) => request(`http://localhost:8080/group/${id}`, 
 
 
 export const insertLecture = (lecture) => request(`http://localhost:8080/lecture/`, 'put',lecture);
+export const removeLecture1= (id) => request(`http://localhost:8080/lecture/${id}`, 'delete');
 
 export const insert = newItem => request('/api/tasks/', 'put', newItem);
 
