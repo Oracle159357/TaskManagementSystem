@@ -8,6 +8,7 @@ const serverPath = path.resolve(__dirname, 'src/server');
 
 const buildPath = path.resolve(__dirname, '.build');
 const publicPath = path.resolve(buildPath, 'public');
+//const publicPath = path.resolve(buildPath, 'public');
 
 module.exports = [
     {
