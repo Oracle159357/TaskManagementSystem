@@ -7,5 +7,4 @@ let cn = {
     password: 'gfhjkm36'
 };
 let db = pgp(cn);
-//var x=db.one('INSERT INTO Task(value, pkKey) VALUES(Buka, 1234)');
 export default db

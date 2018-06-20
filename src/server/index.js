@@ -3,8 +3,9 @@ import express from 'express';
 import path from 'path';
 import api from 'api';
 import bodyParser from "body-parser";
+
 const app = express();
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(bodyParser.json());
 app.use('/', express.static(path.resolve(__dirname, 'public')));

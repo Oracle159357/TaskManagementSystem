@@ -10,4 +10,4 @@ export const insertTask = (title) => insert(title);
 
 export const removeTask = (id) => remove(id);
 
-export const changeStatusTak = (buka)=>change(buka);
+export const changeStatusTak = (buka) => change(buka);
