@@ -8,6 +8,7 @@ import {
     insert,
     remove
 } from "../../api/tasks";
+
 import {Button, Grid, Input, Table} from "semantic-ui-react";
 
 export class TaskList extends PureComponent {
