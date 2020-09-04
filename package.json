@@ -16,7 +16,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
-    "node-sass": "^4.8.3",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.17.2",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
